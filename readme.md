@@ -1,72 +1,18 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
-
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1400 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+HRMS
+This software allows to monitor any activity connected to employees(attendance, engagement level, and effectiveness, work efficiency, salaries, bonuses and awards, notices, leaves and day-offs, centralized and sensitive information) and to make the processing of employee information and routine paperwork faster than it had been .
+In human resource management system there is only one user (admin) who can add as many roles as he/she wants. The system’s structure consists of many components such as departments, roles, employees and employee profiles, teams, calendar, time tracker, timesheet, documents tasks, surveys, events, blog, career, reports, organization chart, notification and message center.
+    1. Department - In this section you can create or add company departments
+    2. Roles – There are many roles which are added by means of admin after which permissions are given according to which the following user starts to operate 
+    3. Employees – Here you can find the whole list of company’s employees and a lot of information about them  for instance what department they belong to, which positions they hold, how much is their salary, when is the next payday, when they were recruited, etc. What about Employee Profile, here you can see the profile of your desired employee and the information they recorded by themselves, that is basic info(Name, Surname, Patronymic name, Email address , Photo, Social Media Profile Links(Facebook, Linkedin,Twitter) and so on. All this information can be downloaded, exported printed in various formats (PDF,Word,Excel,etc).  And most importantly at the end we can create reports according to this information and then download it.
+    4. Tasks – Here each employee is able to add a task for himself/herself or to see tasks that are assigned to him/her(you can see here task description, if he is the only one who will work on that, task priority, duration, deadline and who he is responsible for him/her.
+    5. Calendar – This is perhaps the most important component in HR system. It is different for each employee and differs with many things. Here you can add tasks for himself or be assigned from the head of the department. Here you can see also birthday of collages, events or salary paydays. Additionally, you can customize calendar design or title by choosing desired color for each part. 
+    6. Time tracker – In this section you can choose a task, click on the time tracking button and start to count task completion time.
+    7. Documents – Each employee has an opportunity to import documents in his/her dashboard or receive them from colleagues.
+    8. Time Offs – Here you can take a time off. For this you should choose time off type(day off, vacation, sick, family,etc)  and the reason why you want to take a time off. Also, you can see here if the time off is paid or unpaid and how much time you have used.
+    9. Surveys – The surveys can be added exclusively by HR or relevant specialist. Surveys are to check employee satisfaction or to hear about their offers and many other things.
+    10. Events -  In events section you can create or see already created events. For not to forget there is an opportunity to set a reminder on the event which will also be shown in your personal calendar. 
+    11. Blog – Blog is to produce a content. Blog’s topics will relate to company, employees, used technologies or sphere-related stuff. Posts are both visible to company employees and to the public. They all can share the post to social media platforms, such as facebook, linkedin, twitter, etc.
+    12. Careers – Here you can find everything about vacancies, applicants and interviews. 
+You can add vacancies and make them both private (for company employees only) and public which is visible to everyone and which they will apply to with an application form.
+In Applicant part you can see who applied and for which position. After posting vacant positions and getting applications you can select the most suitable ones as candidates and plan interviews for each of them.  
+    13. Organization Chart – The organization chart is a diagram showing graphically the relation of one official to another, or others, of a company. It is also used to show the relation of one department to another, or others, or of one function of an organization to another, or others. This chart is valuable in that, it enables to visualize a complete organization, by means of the picture it presents. A company's organizational chart typically illustrates relations between people within an organization. Such relations might include managers to sub-workers, directors to managing directors, chief executive officer to various departments, and so forth. 
