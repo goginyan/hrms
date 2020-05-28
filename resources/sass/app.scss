@@ -1,0 +1,174 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic');
+@import 'https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700|Open+Sans:300,400,600';
+// FontAwesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+// Variables
+@import 'bootstrap_custom/variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+//jQuery UI
+@import "~jquery-ui/themes/base/all.css";
+//Intel tel input
+$flagsImagePath: '~intl-tel-input/build/img/';
+@import "~intl-tel-input/src/css/intlTelInput";
+//Datepicker
+@import "~flatpickr/dist/flatpickr.css";
+@import "~flatpickr/dist/themes/material_blue.css";
+
+// Import Custom SB Admin 2 Mixins and Components
+@import "bootstrap_custom/mixins.scss";
+@import "bootstrap_custom/global.scss";
+@import "bootstrap_custom/utilities.scss";
+
+// Custom Components
+@import "bootstrap_custom/dropdowns.scss";
+@import "bootstrap_custom/navs.scss";
+@import "bootstrap_custom/buttons.scss";
+@import "bootstrap_custom/cards.scss";
+@import "bootstrap_custom/charts.scss";
+@import "bootstrap_custom/login.scss";
+@import "bootstrap_custom/error.scss";
+@import "bootstrap_custom/footer.scss";
+
+body {
+  font-size: 16px;
+}
+
+.select2-results__group[aria-selected] {
+  cursor: pointer !important;
+}
+
+.select2-results__group[aria-selected][aria-selected=true] {
+  background-color: #ddd !important;
+}
+
+.select2-results__group[aria-selected].select2-results__option--highlighted[aria-selected] {
+  background-color: #5897fb !important;
+  color: white !important;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly !important;
+}
+
+.w-15 {
+  width: 15% !important;
+}
+
+.form-control {
+  background-color: #ffff;
+  border: 2px solid #dedede;
+  border-radius: 90px;
+  height: 45px;
+  padding: 10px 20px;
+}
+
+.form-control:focus {
+  border: 2px solid #495057;
+  color: #666;
+  outline: none;
+}
+
+label {
+  color: #222;
+  font-weight: 600;
+}
+
+.table-primary,
+.table-primary > th,
+.table-primary > td {
+  background-color: $primary;
+  color: #fff;
+}
+
+.blog-post {
+  &-body,
+  &-preview {
+    white-space: pre-line;
+  }
+
+  &-tag {
+    line-height: 1.5;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 6px 2px rgba(10, 13, 15, 0.125);
+    transition: .3s ease-in;
+
+    &:hover {
+      color: #fff;
+      background-color: var(--primary);
+    }
+  }
+
+  .card-img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    &-top {
+      height: 60vh;
+      max-height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: .5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px 0 rgba(10, 13, 15, 0.15);
+  background-color: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $primary;
+  transition: .2s ease-in;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $indigo;
+}
+
+output {
+  position: absolute;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  font-size: .9em;
+  background-color: var(--primary);
+  color: var(--light);
+  border-radius: 100%;
+  bottom: 150%;
+  left: 0;
+  margin-left: -1.1%;
+  transition: .2s ease-out;
+}
+
+output:after {
+  content: "";
+  position: absolute;
+  background: var(--primary);
+  width: 10px;
+  height: 10px;
+  top: 33px;
+  left: 50%;
+  margin-left: -5px;
+  border-radius: 100%
+}

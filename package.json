@@ -1,0 +1,45 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.19.1",
+        "bootstrap": "^4.4.1",
+        "cross-env": "^6.0.3",
+        "flag-icon-css": "^3.4.5",
+        "jquery": "^3.4.1",
+        "jquery-ui": "^1.12.1",
+        "laravel-mix": "^5.0.1",
+        "lodash": "^4.17.5",
+        "popper.js": "^1.16.0",
+        "resolve-url-loader": "^3.1.1",
+        "sass": "^1.24.4",
+        "sass-loader": "^8.0.1",
+        "vue": "^2.6.11",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.12.0",
+        "@fullcalendar/core": "^4.3.1",
+        "@fullcalendar/daygrid": "^4.3.0",
+        "animate.css": "^3.7.2",
+        "croppie": "^2.6.4",
+        "css-loader": "^3.4.2",
+        "easytimer.js": "^4.1.1",
+        "flatpickr": "^4.6.3",
+        "humanize-duration": "^3.21.0",
+        "intl-tel-input": "^16.0.8",
+        "laravel-echo": "^1.6.1",
+        "pusher-js": "^5.0.3",
+        "rm-emoji-picker": "^0.4.0",
+        "select2": "^4.0.12",
+        "to-snake-case": "^1.0.0"
+    }
+}
